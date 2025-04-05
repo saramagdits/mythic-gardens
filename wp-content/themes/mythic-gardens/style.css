@@ -3,8 +3,27 @@ Theme Name: Mythic Gardens
 Template: inspiro
 Author: Sara Magdits
 Tags: one-column,two-columns,right-sidebar,flexible-header,custom-colors,custom-header,custom-menu,custom-logo,editor-style,featured-images,footer-widgets,post-formats,rtl-language-support,sticky-post,threaded-comments,translation-ready,e-commerce,wide-blocks,portfolio,blog,custom-background,featured-image-header,full-width-template,theme-options,block-styles,block-patterns
-Version: 2.0.3.1743867082
+Version: 2.0.3.1743867083
 Updated: 2025-04-05 15:31:22
 
 */
 
+/*Testing git deploy*/
+@font-face {
+    font-family: 'Brian james condensed'; /* Replace with your font name */
+    src: url('assets/fonts/brian-james-condensed/Brian-James-Condensed.ttf.woff') format('woff'); /* Replace with your font file name and path */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Brian james condensed", serif;
+}
+
+/*Logo text*/
+body:not(.wp-custom-logo) a.custom-logo-text {
+    font-family: "Brian james condensed", serif;
+}
+
+/* Hero text */
+body .wp-block-cover strong {
+    font-family: "Brian james condensed", serif;
+}
